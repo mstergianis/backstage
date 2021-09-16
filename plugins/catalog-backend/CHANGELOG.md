@@ -1,5 +1,13 @@
 # @backstage/plugin-catalog-backend
 
+## 0.14.0
+
+### Minor Changes
+
+- 89fd81a1ab: Add API endpoint for requesting a catalog refresh at `/refresh`, which is activated if a `RefreshService` is passed to `createRouter`.
+
+  The new method is used to trigger a refresh of an entity in an as localized was as possible, usually by refreshing the parent location.
+
 ## 0.13.8
 
 ### Patch Changes
